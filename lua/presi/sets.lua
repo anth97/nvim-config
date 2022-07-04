@@ -26,6 +26,8 @@ vim.cmd("autocmd FileType typescript,vue,javascript :setlocal shiftwidth=2")
 vim.cmd("autocmd FileType python :setlocal colorcolumn=80")
 vim.cmd("autocmd FileType go :setlocal shiftwidth=8")
 vim.cmd("autocmd FileType sql :setlocal shiftwidth=4")
+vim.cmd("autocmd FileType typescriptreact,javascriptreact :setlocal shiftwidth=2")
+vim.cmd("autocmd Filetype python :setlocal colorcolumn=80")
 vim.cmd("autocmd FileType html :setlocal shiftwidth=4")
 
 -- Neovide
